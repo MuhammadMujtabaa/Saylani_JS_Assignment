@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Document</title>
+</head>
+<body>
+<!-- <div class="main">
+    <div>
+        <input type="text">
+    </div>
+
+    <div>
+        <button class="cancel" >C</button>
+        <button class="cancel">&#8592;</button>
+        <button class="btn">/</button>
+    </div>
+        
+    <div>
+        <button class="btn">7</button>
+        <button class="btn">8</button>
+        <button class="btn">9</button>
+        <button class="btn">X</button>
+    </div>
+
+
+    <div>
+        <button class="btn">4</button>
+        <button class="btn">5</button>
+        <button class="btn">6</button>
+        <button class="btn">-</button>
+    </div>
+
+    <div>
+        <button class="btn">1</button>
+        <button class="btn">2</button>
+        <button class="btn">3</button>
+        <button class="btn">+</button>
+    </div>
+
+    <div>
+        <button class="btn">0</button>
+        <button class="btn">=</button>
+    </div>
+
+
+</div> -->
+
+
+    <div  class="main">
+        <h1>Simple Calculator</h1>        
+    <table align="center">
+        <tr>
+            <td>
+                
+                    <input id="result" type="text" disabled placeholder="0." maxlength="5" >
+                
+            </td>
+        </tr>
+        
+        
+        <tr>
+            <td>
+                <button class="cancel1" onclick="clea()">C/CE</button>
+                <button class="cancel2" onclick="less()">&#8592;</button>
+                <button class="btn" onclick="getNumber('/')">/</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button class="btn" onclick="getNumber('7')">7</button>
+                <button class="btn" onclick="getNumber('8')">8</button>
+                <button class="btn" onclick="getNumber('9')">9</button>
+                <button class="btn" onclick="getNumber('*')">X</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button class="btn" onclick="getNumber('4')">4</button>
+                <button class="btn" onclick="getNumber('5')">5</button>
+                <button class="btn" onclick="getNumber('6')">6</button>
+                <button class="btn" onclick="getNumber('-')">-</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <button class="btn" onclick="getNumber('1')">1</button>
+                <button class="btn" onclick="getNumber('2')">2</button>
+                <button class="btn" onclick="getNumber('3')">3</button>
+                <button class="btn" onclick="getNumber('+')">+</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="btnb" onclick="getNumber('0')">0</button>
+                <button class="btnb" onclick="getNumber('.')">.</button>
+                
+                <button class="btne" onclick="calcu()">=</button>
+                
+            </td>
+        </tr>
+
+    </table>
+    <h3>Made By : Muhammad Mujtaba</h3> 
+  </div>
+</body>
+<script src="calculator.js"></script>
+</html>
