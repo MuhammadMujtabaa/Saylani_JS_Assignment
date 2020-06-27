@@ -7,6 +7,7 @@ h1{
     text-align: center;
     color: white;
     font-weight: 400;
+    margin-top: 120px;
     margin-bottom: 20px;
 
 }
@@ -14,11 +15,11 @@ h3{
     text-align: center;
     color: white;
     font-weight: 400;
-  margin-top: 15px;
+    margin-top: 15px;
 
 }
 body{
-    background-color:rgba(2, 2, 2 )
+    background-color:rgb(2, 2, 2 )
 }
 .main{
     
@@ -30,14 +31,14 @@ body{
 }
 button{
     border: 1px solid black;
-    
     border-radius: 6px;
 }
 table{
+    height: 300px;
+    width: 300px;
     margin-top: 40px;
     background-color: black;
     margin: 0 auto;
-    
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -46,16 +47,19 @@ table{
     
 }
 input{
+    width: 98%;
     height: 50px;
+    font-size: 40px;
     background-color: #E3EDE4;
     
 }
 
 .btn{
+    border: 1px solid white;
     text-align: center;
     vertical-align: middle;
     width: 23%;
-    height: 25px;
+    height: 45px;
     margin-bottom: 8px;
     background-color:black;
     color: white;
@@ -69,8 +73,8 @@ input{
     margin-bottom: 8px;
     background-color:orange;
     color: white;
-    width: 36%;
-    height: 25px;
+    width: 35%;
+    height: 45px;
     margin-top: 2px;
     box-shadow: 1px 1px 1px 1px  #FFFFFF;
 }
@@ -81,8 +85,8 @@ input{
     color: white;
     text-align: center;
     vertical-align: middle;
-    width: 36%;
-    height: 25px;
+    width: 35%;
+    height: 45px;
     margin-top: 2px;
     box-shadow: 1px 1px 1px 1px  #FFFFFF;
 }
@@ -90,8 +94,8 @@ input{
 .btnb{
     text-align: center;
     vertical-align: middle;
-    width: 36%;
-    height: 25px;
+    width: 35%;
+    height: 45px;
     margin-bottom: 8px;
     
     background-color:black;
@@ -102,7 +106,7 @@ input{
     text-align: center;
     vertical-align: middle;
     width: 23%;
-    height: 25px;
+    height: 45px;
     margin-bottom: 8px;
     background-color:darkgreen;
     border: 1px solid green;
