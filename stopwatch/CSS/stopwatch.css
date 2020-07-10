@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: url('https://images.unsplash.com/photo-1450000184384-9d7c2d0d214b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1507&q=80');  */
+    /* background-image: url('https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1387&q=80'); */
+    background-image: url('https://images.unsplash.com/photo-1435224668334-0f82ec57b605?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    
+
+
+}
+
+
+b{
+    color:#3BBDBB;
+}
+.maindiv{
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;
+    margin-top: 180px;
+}
+.maindiv h1 {
+    color:#3BBDBB;
+    display: inline-block;
+    width: 100px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+.bg-dark{
+    background-image:radial-gradient(circle,#004e92 ,#000428); 
+}
+#start{
+    width:25%;
+  
+}
+#reset{
+    width:25%;
+}
+#stop{
+    width:25%;
+    display: none;
+}
+
+.btn-success{
+    background-color: #00DF68 !important;
+}
+#btn-danger{
+    background-color: #FB0102 !important;
+}
+#btn-secondary{
+    background-color: #49484D !important;
+}
+h4{
+    margin-top: 40%;
+}
+
+
+
+
+
+/* ////////////// */
+@media screen and (max-width:1200px){
+    .maindiv{
+         margin-top: 170px;
+    }
+    body{
+        background-size: 1680px;
+    }
+    
+}
+
+
+ @media screen and (max-width:1024px){
+    .maindiv{
+        margin-top: 160px;
+    }
+    body{
+        background-size: 1660px ;
+    }
+
+} 
+@media screen and (max-width:900px){
+    
+    .maindiv{
+        margin-top: 150px;
+    }
+    body{
+        background-size: 1640px ;
+    }
+}
+
+ @media screen and (max-width:768px){
+    
+    .maindiv{
+        margin-top: 140px;
+    }
+    body{
+        background-size: 1620px ;
+    }
+
+} 
+@media screen and (max-width:600px){
+    
+    .maindiv{
+        margin-top: 130px;
+    }
+    body{
+        background-size: 1600px ;
+    }
+}
+
+@media screen and (max-width:480px){
+    .maindiv{
+        margin-top: 120px;
+    }
+    body{
+        background-size: 1580px ;
+    }
+   
+}
+@media screen and (max-width:320px){
+    
+    .maindiv{
+        margin-top: 110px;
+    }
+    body{
+        background-size: 1560px ;
+    }
+    
+}
