@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <title>ToDoApp</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+
+    <div class="bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h1 class="h2 display-4 text-white ">TO-DO LIST APP</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+    
+    
+    <div class="container-fluid ">
+        
+
+
+        
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <table border="1" align="center" class="table bg-light mt-5" >
+                    <tr>
+                        <td>
+                            <input id="input" type="text" class="mt-4" style="width: 100%;" placeholder="Enter Todo">    
+                        </td>
+                        <td>
+                            <button id="addbtn" class="btn btn-primary btn-sm btn-block" onclick="addToList()">ADD TO LIST</button>    
+                            <button id="clearbtn" class="btn btn-danger btn-block" onclick="deleteall()">DELETE ALL</button>
+                        </td>
+                        <!-- <td>
+                            <button id="clearbtn" onclick="deleteall()">DELETE ALL</button>
+                        </td> -->
+                    </tr>
+                </table>
+                <div class="col-sm-3"></div>
+                
+            </div>
+        </div>
+        <div class="row">
+        
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <hr>    
+                <table  id ="display-list-items" class="table table-dark border border-danger " align="center" border="1" ></table>
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+
+    <!-- <table border="0" align="center">
+        <tr>
+            <td>
+                <input id="input" type="text" class="">    
+            </td>
+            <td>
+                <button id="addbtn" onclick="addToList()">Add to List</button>    
+            </td>
+            <td>
+                <button id="clearbtn" onclick="deleteall()">DELETE ALL</button>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <table  id ="display-list-items" align="center" border="0" >
+        
+
+    </table> -->
+    <!-- <div class="main">
+        <div class="inputarea">
+            <input id="input" type="text">
+            <button id="addbtn" onclick="addToList()">Add to List</button>
+            <button id="clearbtn" onclick="deleteall()">DELETE ALL</button>
+        </div>
+
+        <div class="list-display">
+            <ol id ="display-list-items">
+
+            </ol>
+        </div>
+    </div> -->
+</body>
+<script src="tda.js"></script>
+</html>
