@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+h3{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+  margin-top: 15px;
+
+}
+body{
+    background-color:rgba(2, 2, 2 )
+}
+.main{
+    
+    background-image: url('https://images.unsplash.com/photo-1525947088131-b701cd0f6dc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    padding-top: 30px;
+    height: 650px;
+    
+}
+button{
+    border: 1px solid black;
+    
+    border-radius: 6px;
+}
+table{
+    margin-top: 40px;
+    background-color: black;
+    margin: 0 auto;
+    
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    
+}
+input{
+    height: 50px;
+    background-color: #E3EDE4;
+    
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    width: 23%;
+    height: 25px;
+    margin-bottom: 8px;
+    background-color:black;
+    color: white;
+    box-shadow: 1px 1px 1px 1px  #FFFFFF;
+}
+
+.cancel1{
+    border:1px solid orange;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 8px;
+    background-color:orange;
+    color: white;
+    width: 36%;
+    height: 25px;
+    margin-top: 2px;
+    box-shadow: 1px 1px 1px 1px  #FFFFFF;
+}
+.cancel2{
+    border:1px solid royalblue;
+    background-color:royalblue;
+    margin-bottom: 8px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    width: 36%;
+    height: 25px;
+    margin-top: 2px;
+    box-shadow: 1px 1px 1px 1px  #FFFFFF;
+}
+
+.btnb{
+    text-align: center;
+    vertical-align: middle;
+    width: 36%;
+    height: 25px;
+    margin-bottom: 8px;
+    
+    background-color:black;
+    color: white;
+    box-shadow: 1px 1px 1px 1px  #FFFFFF;
+}
+.btne{
+    text-align: center;
+    vertical-align: middle;
+    width: 23%;
+    height: 25px;
+    margin-bottom: 8px;
+    background-color:darkgreen;
+    border: 1px solid green;
+    color: white;
+    box-shadow: 1px 1px 1px 1px  #FFFFFF;
+}
+/* ///////////////////////////////// */
+/* .main{
+    margin: 0 auto;
+    width: 40%;
+    background-color: black;
+}
+input{
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-bottom:2px;
+    width: 96%;
+} */

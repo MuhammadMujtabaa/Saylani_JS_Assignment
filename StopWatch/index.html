@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+     <link rel="stylesheet" href="CSS/stopwatch.css"> 
+   
+</head>
+<body>
+   
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="h1 display-5 text-light mt-5 mb-5">VERSATILE STOPWATCH</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-2 col-sm-1 col-0"></div>
+            <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 col-12 text-center ">
+                 <div class="maindiv bg-dark rounded-pill  border border-dark pt-4 pb-3  " >
+                    <h1 class="h1 display-3" id="mint">00</h1><b class="h1 display-3">:</b> 
+                    <h1 class="h1 display-3" id="seco">00</h1><b class="h1 display-3">:</b> 
+                    <h1 class="h1 display-3" id="milli">00</h1>
+                   
+                    
+                    <div>
+                    <button class="btn btn-sm btn-success" id="start" onclick="start()">START </button>
+                    <button class="btn btn-sm btn-danger" id="stop" onclick="stop()">STOP</button>
+                    <button class="btn btn-sm btn-secondary" id="reset" onclick="rest()">RESET</button>
+                    </div>
+        
+
+                </div> 
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-2 col-sm-1 col-0"></div>
+
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-8">
+                <h4 class="  text-light text-center ">Made By : Muhammad Mujtaba</h4> 
+            </div>
+            <div class="col-sm-2"></div>
+        </div>
+    </div>
+
+</body>
+<script src="JS/stopWatch.js"></script>
+</html>
