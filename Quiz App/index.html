@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Quiz App</title>
+</head>
+<body >
+    <div class="contianer">
+        <div class="row">
+            <div class="col-sm-12 text-center mt-5">
+                <h1>My Quiz App</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- <div class="col-sm-0"></div> -->
+            
+            <div class="col-sm-10">
+                <div class="jumbotron mt-5">
+                    <h1 class="display-4">INTELLIGENCE QUIZ</h1>
+                    <p class="lead">Please read the instructions given below</p>
+                    <hr class="my-4"> 
+                    <p class="lead  font-weight-bold "> Test Name </p>
+                    <p class="lead">Non Verbal Intelligence Info Quiz Test</p>
+                    <p class="lead font-weight-bold ">Subject</p>
+                    <p class="lead">Nonverbal</p>
+                    <p class="lead font-weight-bold ">Test Type</p>
+                    <p class="lead">Mcqs</p>
+                    <p class="lead font-weight-bold ">Total Question</p>
+                    <p class="lead">15</p>
+                    <p class="lead font-weight-bold ">Total Marks</p>
+                    <p class="lead">15</p>
+                    <p class="lead font-weight-bold ">Total Time</p>
+                    <p class="lead">10 Mints</p>
+                    
+                    <p class="lead text-right">
+                        <button class="btn btn-info on" id="startquiz" onclick="App()">Start Now !</button>
+                    </p>
+
+                </div>
+                <table  class="table " id="quizQuestionsList"></table>
+                <!-- <table>
+                    <tr>
+                        <td>
+                            <button onclick="Checker()">Click Me !</button>
+                        </td>
+                    </tr>
+                </table> -->
+            </div>
+            <div class="col-sm-2 text-right ">
+                <div class=" fixed-top  text-danger mt-2 mr-3">
+                    <b class="pl-2 w-5"  id="mint" ></b> 
+                    <b class=>:</b>   
+                    <b class="pl-2 w-5" id="seco" ></b>    
+                    <b>:</b>   
+                    <b class="pl-2 w-5" id="milli" ></b>    
+                    
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</body> 
+    <script src="app.js"></script>
+</html>
