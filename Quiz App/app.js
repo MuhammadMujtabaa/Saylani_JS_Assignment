@@ -38,7 +38,7 @@ const QuizData = [
             option2:'Condemn',
             option3: 'Punish',
             option4:'Accuse',
-            Answer: 'Ship',
+            Answer: 'Punish',
     
         },
         {
@@ -76,7 +76,7 @@ const QuizData = [
             Question: 'What Number Comes in this Series ? 13 15 17 19 21 ___?___',
             option1:'26',
             option2:'24',
-            option3: '26',
+            option3: '23',
             option4:'20',
             Answer: '23',
     
